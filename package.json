@@ -12,13 +12,16 @@
     "@fontsource/hanken-grotesk": "^5.3.0",
     "@fontsource/ibm-plex-mono": "^5.3.0",
     "gsap": "3.12.5",
-    "next": "15.5.26",
+    "next": "15.5.28",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
-    "postcss": "8.4.49",
+    "postcss": "8.5.32",
     "tailwindcss": "3.4.17"
+  },
+  "overrides": {
+    "postcss": "$postcss"
   }
 }
